@@ -30,14 +30,15 @@ class HomeContent extends StatelessWidget{
   Widget build(BuildContext context) {
     // TODO: implement build
     return Center(
-      child: Container(
-        child: Image.network(src),
-        width: 300,
-        height: 300,
-        decoration: BoxDecoration(
-            color: Colors.yellow
+      child: Text(
+        '你好Flutter111',
+        textDirection: TextDirection.ltr,
+
+        style: TextStyle(
+          fontSize: 40.0,
+          color: Colors.yellow,
         ),
-      )
-    );
+      ),
+    );;
   }
 }
